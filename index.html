@@ -40,9 +40,11 @@ $(function() {
           item.description.substring(srcStart).indexOf('"') + srcStart; // Find where the URL ends
         var src = item.description.substring(srcStart, srcEnd); // Extract just the URL
         output +=
-          '<div class="one-blog-element u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-30 u-background-white"><img class="one-img-responsive u-sizeFull" src="' +
+          '<div class="one-blog-element Grid-cell u-md-size1of3 u-lg-size1of3 u-flex u-margin-r-bottom u-flexJustifyCenter">' +
+          '<div class="u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-30 u-background-white">' +
+          '<img class="one-img-responsive u-sizeFull" src="' +
           src +
-          '" width="360px" height="240px">' // + '</div></header>';
+          '" width="360px" height="240px" alt="immagine del post">' // + '</div></header>';
         output +=
           '<div class="one-blog-content u-text-r-l u-padding-r-all u-layout-prose"><h3 class="u-text-h4 u-textClean u-color-black"><a class="u-color-50 u-textClean" href="' +
           item.link +
@@ -63,7 +65,7 @@ $(function() {
           Math.min(trimmedString.length, trimmedString.lastIndexOf(" "))
         );
         output += "<p class='u-text-p u-textSecondary'>" + trimmedString + "...</p>";
-        output += "</div></div>";
+        output += "</div></div></div>";
         //output += "</div>";
         return k < 3;
       });
@@ -79,8 +81,8 @@ $(function() {
       </h2>
 
       <div id="blog">
-        <div class="Grid--withGutterM" id="blogContent">
-          <div class="Grid-cell u-md-size1of3 u-lg-size1of3 u-flex u-margin-r-bottom u-flexJustifyCenter" id="jsonContent"></div>
+        <div id="blogContent">
+          <div class="Grid--withGutterM" id="jsonContent"></div>
         </div>
       </div>
 
