@@ -1,7 +1,7 @@
 title:             "Agenda digitale dell'Umbria - Regione Umbria"
 description:       "Sito tematico della Regione Umbria"
 baseurl:           "/"
-url:               "https://regione-umbria.github.io/adumbria/"
+url:               "https://agendadigitale.regione.umbria.it/"
 author:            "Redazione"
 
 personalizza_css: true
@@ -13,7 +13,7 @@ header_language_selector: false
 header_logo: /assets/images/LogoRegione85x96.svg
 header_title: Agenda digitale dell'Ubria
 header_subtitle: Sito tematico della Regione Umbria
-search: true
+search: false
 search_full_content: false
 mega_menu: true    # if true, require _data/menu.yml
 mega_menu_accedi: false
@@ -45,13 +45,13 @@ contatti_url: "contatti"
 # Home sections
 links_buttons: true
 links_buttons_title:
-posts_list: true
+posts_list: false
 posts_list_title: Autem reiciendis post
-section_lists: true
+section_lists: false
 section_lists_title: Dignissimos recusandae landing
-twitter_list: true
+twitter_list: false
 twitter_list_title: Twitter@amministrazione
-links_leads: true
+links_leads: false
 links_leads_title: A est rerum leads
 
 # Build settings
