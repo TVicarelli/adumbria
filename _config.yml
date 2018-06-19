@@ -40,7 +40,7 @@ email: agendadigitale@regione.umbria.it
 pec: regione.giunta@postacert.umbria.it 
 privacy_url: http://www.regione.umbria.it/privacy-policy
 note_legali_url: http://www.regione.umbria.it/note-legali
-contatti_url: "contatti"
+contatti_url: 
 
 # Home sections
 links_buttons: true
