@@ -44,7 +44,7 @@ $(function() {
           '<div class="u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-30 u-background-white">' +
           '<img class="one-img-responsive u-sizeFull" src="' +
           src +
-          '" width="360px" height="240px" alt="immagine del post">' // + '</div></header>';
+          '" alt="immagine del post">' // + width="360px" height="240px" + '</div></header>';
         output +=
           '<div class="one-blog-content u-text-r-l u-padding-r-all u-layout-prose"><h3 class="u-text-h4 u-textClean u-color-black"><a class="u-color-50 u-textClean" href="' +
           item.link +
@@ -55,7 +55,7 @@ $(function() {
         //  '<div class="post-meta"><span>By ' + item.author + "</span></div>";
         
         var yourString = item.description.replace(/<img[^>]*>/g, ""); //replace with your string.
-        var yourString = item.description.replace(/<figcaption[^>]*figcaption>/g, ""); //by gg
+        var yourString = item.description.replace(/<figcaption[^]*figcaption>/g, ""); //by gg
         var maxLength = 120; // maximum number of characters to extract
         //trim the string to the maximum length
         var trimmedString = yourString.substr(0, maxLength);
@@ -82,7 +82,7 @@ $(function() {
 
       <div id="blog">
         <div id="blogContent">
-          <div class="Grid--withGutterM" id="jsonContent"></div>
+          <div class="Grid Grid--withGutterM" id="jsonContent"></div>
         </div>
       </div>
 
