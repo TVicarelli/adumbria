@@ -31,6 +31,7 @@ $(function() {
         //  '<h4 class="date">' +
         //  $.format.date(item.pubDate, "dd<br>MMM") +
         //  "</h4>";
+        
         var tagIndex = item.description.indexOf("<img"); // Find where the img tag starts
         var srcIndex =
           item.description.substring(tagIndex).indexOf("src=") + tagIndex; // Find where the src attribute starts
@@ -43,14 +44,16 @@ $(function() {
           src +
           '" width="360px" height="240px">' // + '</div></header>';
         output +=
-          '<div class="one-blog-content u-text-r-l u-padding-r-all u-layout-prose"><h2 class="u-text-h2 u-textClean u-color-black"><a class="u-color-50 u-textClean" href="' +
+          '<div class="one-blog-content u-text-r-l u-padding-r-all u-layout-prose"><h3 class="u-text-h4 u-textClean u-color-black"><a class="u-color-50 u-textClean" href="' +
           item.link +
           '">' +
           item.title +
-          "</a></h2>";
+          "</a></h3>";
         //output +=
         //  '<div class="post-meta"><span>By ' + item.author + "</span></div>";
+        
         var yourString = item.description.replace(/<img[^>]*>/g, ""); //replace with your string.
+        var yourString = item.description.replace(/[^<p>]/g, ""); //by gg
         var maxLength = 120; // maximum number of characters to extract
         //trim the string to the maximum length
         var trimmedString = yourString.substr(0, maxLength);
@@ -59,7 +62,7 @@ $(function() {
           0,
           Math.min(trimmedString.length, trimmedString.lastIndexOf(" "))
         );
-        output += "<p class='u-text-h5 u-textClean u-color-black u-text-p u-textSecondary'>" + trimmedString + "...</p>";
+        output += "<p class='u-text-p u-textSecondary'>" + trimmedString + "...</p>";
         output += "</div></div>";
         //output += "</div>";
         return k < 3;
@@ -81,8 +84,13 @@ $(function() {
         </div>
       </div>
 
-      <br><br>
-      <a class="Button Button--default u-text-r-xxs" id="loadBlogPosts" href="https://medium.com/adumbria">Vedere altri post nel blog su medium.com</a>
+      
+      <p class="u-textCenter u-text-md-right u-text-lg-right u-margin-r-top">
+        <a href="https://medium.com/adumbria" class="u-color-50 u-textClean u-text-h4" id="loadBlogPosts">
+          tutti i contenuti nel blog su medium.com <span class="Icon Icon-chevron-right"></a>
+      </p>
+      <!br>
+      <!a class="Button Button--default u-text-r-xxs" href=""></a>
     </div>
 
     <div class="Grid-cell u-sizeFull u-md-size1of3 u-lg-size1of3 u-text-r-s u-padding-r-all">
