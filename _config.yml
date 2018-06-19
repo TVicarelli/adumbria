@@ -1,7 +1,7 @@
 title:             "Agenda digitale dell'Umbria - Regione Umbria"
 description:       "Sito tematico della Regione Umbria"
 baseurl:           "/"
-url:               "https://agendadigitale.regione.umbria.it/"
+url:               "http://agendadigitale.regione.umbria.it/"
 author:            "Redazione"
 
 personalizza_css: true
