@@ -6,8 +6,8 @@ layout: home
 <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
     <section class="Grid">
 
-        <div class="Grid-cell u-sizeFull u-md-size2of3 u-lg-size2of3 u-text-r-s u-padding-r-all">
-            
+      <div class="Grid-cell u-sizeFull u-md-size2of3 u-lg-size2of3 u-text-r-s u-padding-r-all">
+        
 <script>
 
 $(function() {
@@ -39,11 +39,11 @@ $(function() {
           item.description.substring(srcStart).indexOf('"') + srcStart; // Find where the URL ends
         var src = item.description.substring(srcStart, srcEnd); // Extract just the URL
         output +=
-          '<div class="one-blog-element"><img class="one-img-responsive" src="' +
+          '<div class="one-blog-element"><img class="one-img-responsive u-sizeFull" src="' +
           src +
           '" width="360px" height="240px">' // + '</div></header>';
         output +=
-          '<div class="one-blog-content"><h2 class="u-text-h2 u-textClean u-color-black"><a class="u-text-h2 u-textClean u-color-black" href="' +
+          '<div class="one-blog-content u-text-r-l u-padding-r-all u-layout-prose"><h2 class="u-text-h2 u-textClean u-color-black"><a class="u-color-50 u-textClean" href="' +
           item.link +
           '">' +
           item.title +
@@ -59,7 +59,7 @@ $(function() {
           0,
           Math.min(trimmedString.length, trimmedString.lastIndexOf(" "))
         );
-        output += "<p class='u-text-h5 u-textClean u-color-black'>" + trimmedString + "...</p>";
+        output += "<p class='u-text-h5 u-textClean u-color-black u-text-p u-textSecondary'>" + trimmedString + "...</p>";
         output += "</div></div>";
         //output += "</div>";
         return k < 3;
@@ -70,27 +70,28 @@ $(function() {
 });
 
 </script>
-            <section class="section blog" id="blog">
-              <div class="container">
-                <!---->
-                <header class="section-heading">
-                  <h2 class="u-text-h2 u-color-black">Ultimi post dal blog medium</h2><span></span>
-                </header>
-                <!---->
-                <div class="section-content" id="blogContent">
-                  <div class="row" id="jsonContent"></div>
-                </div>
-                <!-- /#blogContent-->
-                <a class="Button Button--default u-text-r-xxs" id="loadBlogPosts" href="https://medium.com/adumbria">Vai al blog</a>
-              </div>
-              <!-- /.container-->
-            </section>
             
+        <h2 id="news" class="u-layout-centerLeft u-text-r-s">
+            <a class="u-color-50 u-textClean u-text-h3 " href="">Ultimi post dal blog</a>
+        </h2>
+
+        <div class="Grid Grid--withGutterM" id="blog">
+
+          <div class="Grid-cell u-md-size1of3 u-lg-size1of3 u-flex u-margin-r-bottom u-flexJustifyCenter" id="blogContent">
+            <div class="u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-30 u-background-white" id="jsonContent"></div>
+            </div>
+            </div>
         </div>
 
-        <div class="Grid-cell u-sizeFull u-md-size1of3 u-lg-size1of3 u-text-r-s u-padding-r-all">
-            <img src="assets/images/20141001_logo_AdUmbria_OK.png" class="u-sizeFull" alt="logo AdUmbria" />
-        </div>
+        <br><br>
+        <a class="Button Button--default u-text-r-xxs" id="loadBlogPosts" href="https://medium.com/adumbria">Vedere altri post nel blog su medium.com</a>
+      </div>
+            
+    </div>
+
+    <div class="Grid-cell u-sizeFull u-md-size1of3 u-lg-size1of3 u-text-r-s u-padding-r-all">
+        <img src="assets/images/20141001_logo_AdUmbria_OK.png" class="u-sizeFull" alt="logo AdUmbria" />
+    </div>
 
     </section>
 </div>
