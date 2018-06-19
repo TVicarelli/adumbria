@@ -1,13 +1,13 @@
-- title: "Link in evidenza 1"
-  url: informazioni
+- title: "Che cos'è l'Agenda digitale dell'Umbria"
+  url: http://www.regione.umbria.it/agenda-digitale/informazioni
   list:
-    - title: "Link in evidenza 1.1"
-      url: contatti
-    - title: "Link in evidenza 1.2"
-      url: posts
+    - title: "Missioni dell'agenda, risultati attesi e progetti"
+      url: http://www.regione.umbria.it/agenda-digitale/missioni
+    - title: "Linee guida strategiche per la società dell'informazione (ex l.r. n.9/2014)"
+      url: http://www.regione.umbria.it/agenda-digitale/linee-guida
 
-- title: "Link in evidenza 2"
-  url: categories
+- title: "Piano digitale regionale triennale (PDRT ex l.r. n.9/2014)"
+  url: http://www.regione.umbria.it/agenda-digitale/piano-digitale
 
-- title: "Link in evidenza 3"
-  url: tags
+- title: "Leggi e regolamenti in ambito ICT"
+  url: http://www.regione.umbria.it/agenda-digitale/regolamentazione
