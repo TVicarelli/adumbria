@@ -15,7 +15,7 @@ header_title: Agenda digitale dell'Ubria
 header_subtitle: Sito tematico della Regione Umbria
 search: false
 search_full_content: false
-mega_menu: true    # if true, require _data/menu.yml
+mega_menu: false    # if true, require _data/menu.yml
 mega_menu_accedi: false
 
 # Social profiles
