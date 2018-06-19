@@ -27,10 +27,10 @@ $(function() {
         }
         //output += '<div class="col-sm-6 col-md-4' + visibleSm + '">';
         //output += '<div class="blog-post"><header>';
-        output +=
-          '<h4 class="date">' +
-          $.format.date(item.pubDate, "dd<br>MMM") +
-          "</h4>";
+        //output +=
+        //  '<h4 class="date">' +
+        //  $.format.date(item.pubDate, "dd<br>MMM") +
+        //  "</h4>";
         var tagIndex = item.description.indexOf("<img"); // Find where the img tag starts
         var srcIndex =
           item.description.substring(tagIndex).indexOf("src=") + tagIndex; // Find where the src attribute starts
@@ -39,7 +39,7 @@ $(function() {
           item.description.substring(srcStart).indexOf('"') + srcStart; // Find where the URL ends
         var src = item.description.substring(srcStart, srcEnd); // Extract just the URL
         output +=
-          '<div class="blog-element"><img class="img-responsive" src="' +
+          '<div class="one-blog-element"><img class="one-img-responsive" src="' +
           src +
           '" width="360px" height="240px">' // + '</div></header>';
         output +=
