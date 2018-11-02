@@ -89,3 +89,5 @@ defaults:
       type: foo
     values:
       layout: single
+
+theme: jekyll-theme-cayman
