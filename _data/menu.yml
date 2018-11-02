@@ -3,6 +3,11 @@
 
 - title: "Monitoraggio #AdUmbria"
   url: monitoraggio-adumbria
+  dropdown:
+  - title: Disponibilità fondi '#AdUmbria
+    url: monitoraggio-adumbria/#fondi
+  - title: Numero progetti '#AdUmbria
+    url: monitoraggio-adumbria/#avanzamento
 
 - title: "Missioni"
   url: pages
