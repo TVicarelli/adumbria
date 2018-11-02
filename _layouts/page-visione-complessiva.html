@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div id="main">
+
+  <!-- Page Title -->
+  {% if page.background %}
+  <div class="u-sizeFull" style="height: 350px; background-size: cover; background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% else %}
+  <div class="u-sizeFull">
+  {% endif %}
+
+    <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+      <section class="Grid">
+        <div class="Grid-cell u-sizeFull u-md-size2of3 u-lg-size2of3">
+          <h1 class="u-text-h1 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.title }}</h1>
+          {% if page.subtitle %}
+          <h3 class="u-text-h3 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.subtitle }}</h3>
+          {% endif %}
+          {% if page.author %}
+          <h3 class="u-text-h3 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.author }}</h3>
+          {% endif %}
+          {% if page.date %}
+          <br>
+          <span class="meta u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.date | date: '%B %d, %Y' }}</span>
+          <br>
+          {% endif %}
+        </div>
+      <section>
+    </div>
+
+  </div>
+
+  <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+    <section class="Grid">
+      <div class="Grid-cell u-sizeFull u-md-size2of3 u-lg-size2of3">
+
+        <article class="Prose u-layout-prose">
+
+        {{ content }}
+
+        </article>
+
+      </div>
+
+      <div class="Grid-cell u-sizeFull u-md-size1of3 u-lg-size1of3 u-text-r-s u-padding-r-all">
+        <div>
+          <iframe src="https://monitoraggioadu.weedea.it/public/dashboard/6465c326-1a0f-4143-a5d7-fb9c7933137b"    frameborder="0"    width="100%"    height="600"    allowtransparency></iframe>
+        </div>
+      </div>
+
+    </section>
+  </div>
+</div>
