@@ -1,55 +1,19 @@
-- title: "A est rerum"
-  url: /collection-archive/
+- title: "Home"
+  url: /
+
+- title: "Monitoraggio #AdUmbria"
+  url: visione-complessiva
+
+- title: "Missioni"
+  url: pages
   dropdown:
-  - title: "AUTEM REICIENDIS"
-    url: informazioni
-  - title: "BLANDIS SOLUTA EXERCITATIONEM"
-    url: contatti
-  - title: "VOLUPTATEM ELIGENDI LABORIOSAM"
-    url: posts
-    dropdown:
-      - title: "Laboriosam porro dolor"
-        url: categories
-      - title: "Sed et velit"
-        url: tags
-      - title: Autem quae numquam
-        url: page-archive
-      - title: "Nulla quibusdam necessitatibus"
-        url: other-archive
-
-- title: "Voluptatibus esse corporis"
-  url: posts
-  dropdown:
-  - title: "VOLUPTATEM ELIGENDI LABORIOSAM"
-    url: posts
-
-  - title: "AUTEM REICIENDIS MAIORES"
-    url: categories
-    dropdown:
-      - title: Autem quae numquam
-        url: categories
-      - title: "Sed et velit"
-        url: categories
-        dropdown:
-          - title: "Sub rem similique expedita"
-            url: posts
-          - title: "Sub autem reciciendis maiores"
-            url: posts
-      - title: "Laboriosam porro dolor"
-        url: categories
-
-  - title: "NULLA QUIBUSDAM NECESSITATIBUS"
-    url: tags
-
-  - title: "VOLUPTATIBUS ESSE CORPORIS"
-    url: tags
-    dropdown:
-      - title: "Rem similique expedita"
-        url: posts
-      - title: "Autem reciciendis maiores"
-        url: posts
-      - title: Autem quae numquam
-        url: posts
-
-- title: "Reiciendis maiores"
-  url: categories
+  - title: Missione 1 - Capitale umano e uso di internet
+    url: missione-persone
+  - title: Missione 2 - Imprese ed integrazione delle tecnologie digitali
+    url: missione-imprese
+  - title: Missione 3 - Territorio smart e qualità della vita
+    url: missione-territorio
+  - title: Missione 4 - Servizi pubblici digitali
+    url: missione-pa
+  - title: Missione 5 - Connettività (BUL)
+    url: missione-connettivita
