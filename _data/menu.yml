@@ -15,7 +15,7 @@
       url: monitoraggio-adumbria#avanzamento
 
 - title: "Missioni"
-  url: pages
+  url: monitoraggio-adumbria
   dropdown:
   - title: Missione 1 - Capitale umano e uso di internet
     url: missione-persone
@@ -27,9 +27,29 @@
 
   - title: Missione 2 - Imprese ed integrazione delle tecnologie digitali
     url: missione-imprese
+    dropdown:
+    - title: Monitoraggio \#AdUmbria
+      url: missione-imprese#dashboard
+    - title: Indicatori
+      url: monitoraggio-imprese#indicatori
   - title: Missione 3 - Territorio smart e qualità della vita
     url: missione-territorio
+    dropdown:
+    - title: Monitoraggio \#AdUmbria
+      url: missione-territorio#dashboard
+    - title: Indicatori
+      url: monitoraggio-territorio#indicatori
   - title: Missione 4 - Servizi pubblici digitali
     url: missione-pa
+    dropdown:
+    - title: Monitoraggio \#AdUmbria
+      url: missione-pa#dashboard
+    - title: Indicatori
+      url: monitoraggio-pa#indicatori
   - title: Missione 5 - Connettività (BUL)
     url: missione-connettivita
+    dropdown:
+    - title: Monitoraggio \#AdUmbria
+      url: missione-connettivita#dashboard
+    - title: Indicatori
+      url: monitoraggio-connettivita#indicatori
