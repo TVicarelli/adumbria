@@ -36,3 +36,28 @@ MISSIONE 3
 [UmbriaGIS] (http://www.umbriageo.regione.umbria.it/pagina/umbriagis-il-codesign) 
 
 [Agenda urbana nei comuni] (http://www.regione.umbria.it/programmazione-fesr/agenda-urbana) 
+
+MISSIONE 4
+
+![Image] (https://drive.google.com/uc?id=0B9bYydONH77PTHlRdG1xV3VNY0E)
+
+### Principali iniziative
+[Community Network CN-Umbria, SIRU, Data Center Regionale Unitario DCRU, Rete regionale ReRU] (http://www.regione.umbria.it/agenda-digitale/community)
+
+[Piattaforma PagoUmbria] (https://pagoumbria.regione.umbria.it/pagoumbria/)
+
+[Piattaforma LoginUmbria] (http://www.umbriadigitale.it/aderire-a-loginumbria)
+
+API store regionale UmbriaAPI (soon)
+
+[OpenDataUmbria] (http://dati.umbria.it/)
+
+[Sanità elettronica/CUP] (https://cup.regione.umbria.it/)
+
+MISSIONE 5
+
+![Image] (https://drive.google.com/uc?id=0B9bYydONH77PT2djRFA3Q0lNaTg)
+
+### Principali iniziative
+
+[Piano nazionale BUL in Umbria] (http://www.regione.umbria.it/agenda-digitale/piano-nazionale-banda-ultra-larga-bul-) 
