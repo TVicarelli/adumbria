@@ -7,9 +7,9 @@
   - title: Visione complessiva
     url: monitoraggio-adumbria
     dropdown:
-    - title: Disponibilità fondi '#AdUmbria
+    - title: Disponibilità fondi \#AdUmbria
       url: monitoraggio-adumbria#fondi
-    - title: Numero progetti '#AdUmbria
+    - title: Numero progetti \#AdUmbria
       url: monitoraggio-adumbria#numero
     - title: Avanzamento per fasi
       url: monitoraggio-adumbria#avanzamento
@@ -20,7 +20,7 @@
   - title: Missione 1 - Capitale umano e uso di internet
     url: missione-persone
     dropdown:
-    - title: Monitoraggio '#AdUmbria
+    - title: Monitoraggio \#AdUmbria
       url: missione-persone#dashboard
     - title: Indicatori
       url: monitoraggio-persone#indicatori
