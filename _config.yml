@@ -1,7 +1,7 @@
 title:             "Agenda digitale dell'Umbria - Regione Umbria"
 description:       "Sito tematico della Regione Umbria"
-baseurl:           "/adumbria/" #FIXME: Before production set to /
-url:               "https://tvicarelli.github.io/adumbria" #FIXME: Before production set to http://agendadigitale.regione.umbria.it/
+baseurl:           "/"
+url:               "http://agendadigitale.regione.umbria.it/"
 author:            "Redazione"
 
 personalizza_css: true
