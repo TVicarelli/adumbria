@@ -14,13 +14,13 @@
     - title: Avanzamento per fasi
       url: monitoraggio-adumbria#avanzamento
 
-- title: "Missioni"
+- title: "Monitoraggio Missioni"
   url: monitoraggio-adumbria
   dropdown:
   - title: Missione 1 - Capitale umano e uso di internet
     url: missione-persone
     dropdown:
-    - title: "Monitoraggio #AdUmbria"
+    - title: Fondi e progetti
       url: missione-persone#dashboard
     - title: Indicatori
       url: missione-persone#indicatori
@@ -28,28 +28,28 @@
   - title: Missione 2 - Imprese ed integrazione delle tecnologie digitali
     url: missione-imprese
     dropdown:
-    - title: "Monitoraggio #AdUmbria"
+    - title: Fondi e progetti
       url: missione-imprese#dashboard
     - title: Indicatori
       url: missione-imprese#indicatori
   - title: Missione 3 - Territorio smart e qualità della vita
     url: missione-territorio
     dropdown:
-    - title: "Monitoraggio #AdUmbria"
+    - title: Fondi e progetti
       url: missione-territorio#dashboard
     - title: Indicatori
       url: missione-territorio#indicatori
   - title: Missione 4 - Servizi pubblici digitali
     url: missione-pa
     dropdown:
-    - title: "Monitoraggio #AdUmbria"
+    - title: Fondi e progetti
       url: missione-pa#dashboard
     - title: Indicatori
       url: missione-pa#indicatori
   - title: Missione 5 - Connettività (BUL)
     url: missione-connettivita
     dropdown:
-    - title: "Monitoraggio #AdUmbria"
+    - title: Fondi e progetti
       url: missione-connettivita#dashboard
     - title: Indicatori
       url: missione-connettivita#indicatori
