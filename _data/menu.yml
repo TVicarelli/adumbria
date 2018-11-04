@@ -1,55 +1,55 @@
-- title: "A est rerum"
-  url: /collection-archive/
+- title: "Home"
+  url: /
+
+- title: "Monitoraggio #AdUmbria"
+  url: monitoraggio-adumbria
   dropdown:
-  - title: "AUTEM REICIENDIS"
-    url: informazioni
-  - title: "BLANDIS SOLUTA EXERCITATIONEM"
-    url: contatti
-  - title: "VOLUPTATEM ELIGENDI LABORIOSAM"
-    url: posts
+  - title: Visione complessiva
+    url: monitoraggio-adumbria
     dropdown:
-      - title: "Laboriosam porro dolor"
-        url: categories
-      - title: "Sed et velit"
-        url: tags
-      - title: Autem quae numquam
-        url: page-archive
-      - title: "Nulla quibusdam necessitatibus"
-        url: other-archive
+    - title: "Disponibilità fondi #AdUmbria"
+      url: monitoraggio-adumbria#fondi
+    - title: "Numero progetti #AdUmbria"
+      url: monitoraggio-adumbria#numero
+    - title: Avanzamento per fasi
+      url: monitoraggio-adumbria#avanzamento
 
-- title: "Voluptatibus esse corporis"
-  url: posts
+- title: "Monitoraggio Missioni"
+  url: monitoraggio-adumbria
   dropdown:
-  - title: "VOLUPTATEM ELIGENDI LABORIOSAM"
-    url: posts
-
-  - title: "AUTEM REICIENDIS MAIORES"
-    url: categories
+  - title: Missione 1 - Capitale umano e uso di internet
+    url: missione-persone
     dropdown:
-      - title: Autem quae numquam
-        url: categories
-      - title: "Sed et velit"
-        url: categories
-        dropdown:
-          - title: "Sub rem similique expedita"
-            url: posts
-          - title: "Sub autem reciciendis maiores"
-            url: posts
-      - title: "Laboriosam porro dolor"
-        url: categories
+    - title: Fondi e progetti
+      url: missione-persone#dashboard
+    - title: Indicatori
+      url: missione-persone#indicatori
 
-  - title: "NULLA QUIBUSDAM NECESSITATIBUS"
-    url: tags
-
-  - title: "VOLUPTATIBUS ESSE CORPORIS"
-    url: tags
+  - title: Missione 2 - Imprese ed integrazione delle tecnologie digitali
+    url: missione-imprese
     dropdown:
-      - title: "Rem similique expedita"
-        url: posts
-      - title: "Autem reciciendis maiores"
-        url: posts
-      - title: Autem quae numquam
-        url: posts
-
-- title: "Reiciendis maiores"
-  url: categories
+    - title: Fondi e progetti
+      url: missione-imprese#dashboard
+    - title: Indicatori
+      url: missione-imprese#indicatori
+  - title: Missione 3 - Territorio smart e qualità della vita
+    url: missione-territorio
+    dropdown:
+    - title: Fondi e progetti
+      url: missione-territorio#dashboard
+    - title: Indicatori
+      url: missione-territorio#indicatori
+  - title: Missione 4 - Servizi pubblici digitali
+    url: missione-pa
+    dropdown:
+    - title: Fondi e progetti
+      url: missione-pa#dashboard
+    - title: Indicatori
+      url: missione-pa#indicatori
+  - title: Missione 5 - Connettività (BUL)
+    url: missione-connettivita
+    dropdown:
+    - title: Fondi e progetti
+      url: missione-connettivita#dashboard
+    - title: Indicatori
+      url: missione-connettivita#indicatori
